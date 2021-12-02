@@ -12,7 +12,7 @@ For example, the file for March 9, 2017 would have '20170309_2017XXX' as a name.
 
 Note that this naming convention only works for ranges of dates starting in 2011, which will be our test case. 
 
-## Component 1: `retrieve.py`
+## Component 1: [`retrieve.py`](retrieve.py)
 
 This file contains our work in progress of what should end up being a function that will allow a user to downlload a file with an arbitrary date with the format 'YYYYMMDD', if it exists. So far, the script is able to download a file with an arbitrary date that we know in advance exists.
 
