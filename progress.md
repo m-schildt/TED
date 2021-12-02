@@ -10,6 +10,8 @@ Within this directory, the files are stored by year and then by month. Within ea
 
 For example, the file for March 9, 2017 would have '20170309_2017XXX' as a name. The 'XXX' part cannot be determined in advance, as these numbers are assigned as files are generated. This means that if the first file of the year is for January 2, its name should be 'YYYY0102_YYYY001'. With this naming structure, and given that there is only one file per day, it is sufficient to search for that file which starts with a desired 'YYYYMMDD' to retrieve it if it exists.
 
+Note that this naming convention only works for ranges of dates starting in 2011, which will be our test case. 
+
 ## Component 1: `retrieve.py`
 
 This file contains our work in progress of what should end up being a function that will allow a user to downlload a file with an arbitrary date with the format 'YYYYMMDD', if it exists. So far, the script is able to download a file with an arbitrary date that we know in advance exists.
