@@ -75,9 +75,9 @@ retrieve("A")
 retrieve(20000101)
 # "20000101": should be out of range
 retrieve("20000101")
-# "20170101"
+# "20170101": should not exist
 retrieve("20170101")
-# "20170102"
+# "20170102": Should not exist
 retrieve("20170102")
-# "20170103"
+# "20170103": should be downloaded
 retrieve("20211207")
