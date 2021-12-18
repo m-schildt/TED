@@ -10,7 +10,7 @@ TED (Tenders Electronic Daily) is the online version of the 'Supplement to the O
 - retriever:
 - decompressor:
 - extractor:
-- csv_gemerator:
+- csv_generator:
 
 ### Analisys
 
