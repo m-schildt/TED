@@ -23,3 +23,7 @@ This file extracts the XMLs for a compressed tarball.
 ## Component 3: `write_csv.py`
 
 This file creates a `csv` containing as many rows as XML files existed in the tarball and as many columns as XML fields were deemed relevant (explain).
+
+## Documentation
+
+We decided to go with conventional 'readme' .  `pydoc` or `sphinx`
