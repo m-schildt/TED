@@ -16,10 +16,10 @@ Note that this naming convention only works for ranges of dates starting in 2011
 
 This file contains our work in progress of what should end up being a function that will allow a user to downlload a file with an arbitrary date with the format 'YYYYMMDD', if it exists. So far, the script is able to download a file with an arbitrary date that we know in advance exists.
 
-## Component 2: `extractor.py`
+## Component 2: `extract.py`
 
 This file extracts the XMLs for a compressed tarball.
 
-## Component 3: `csv.py`
+## Component 3: `write_csv.py`
 
 This file creates a `csv` containing as many rows as XML files existed in the tarball and as many columns as XML fields were deemed relevant (explain).
