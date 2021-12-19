@@ -2,7 +2,7 @@ from retrieve import retrieve
 
 from decompressor import decompress
 
-from scraper import extractor
+from extractor import extractor
 
 date = "20200918"
 
