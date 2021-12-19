@@ -2,9 +2,9 @@ from retrieve import retrieve
 
 from decompressor import decompress
 
-from scraper import scraper
+from scraper import extractor
 
-date = "20211217"
+date = "20200918"
 
 gz_file = retrieve(date)
 
@@ -12,4 +12,4 @@ xml_files = decompress(gz_file)
 
 destination = f"daily_report_{date}.csv"  
 
-scraper(xml_files, destination)
+extractor(xml_files, destination)
