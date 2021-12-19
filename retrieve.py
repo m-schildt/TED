@@ -7,7 +7,7 @@
 
 
 def retrieve(date):
-   
+
    # Cast date to string
    date = str(date)
    
@@ -69,7 +69,7 @@ def retrieve(date):
       except:
          print("Something went wrong with the file transfer.")
       
-#retrieve("20211215")
+#retrieve("20211218")
 
 # Some dates to try
 # 1: should be out of range

@@ -1,16 +1,25 @@
 
+
+# The decompress function uses tarfile library is used to decompress the retrieved XML files
+# The function retruns a variable that contains the directory path to all the retrieved XML files
 def decompress(fname):
 
     import tarfile
+    
+    try:
+        # check file format
+        if fname.endswith("tar.gz"):
 
-    #fname = 'example/20211129_2021231.tar.gz' # Example on the latest (daily) package of XML files
-
-    if fname.endswith("tar.gz"):
-
-        tar = tarfile.open(fname, "r:gz")
-        folder_name  = tar.getnames()[0]
-        file_names = tar.getnames()[1:]
-        tar.extractall('./') # maybe we can use an extraction folder if we want to decompress and combine multipe files
-        tar.close()
-        print("File was decompressed successfully")
-        return file_names
+            tar = tarfile.open(fname, "r:gz")
+            # store folder name
+            folder_name  = tar.getnames()[0]
+            # store all directory path to the retrieved XML files
+            file_names = tar.getnames()[1:]
+            tar.extractall('./') 
+            tar.close()
+            print("File was decompressed successfully")
+            
+            # return of variable 'file_names'
+            return file_names
+    except:
+        print("No file for decompression.")
