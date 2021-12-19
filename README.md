@@ -1,4 +1,9 @@
-# Exploring EU tenders
+<center>
+<a href="https://github.com/m-schildt/TED-Tenders-Electronic-Daily">
+<img  src="https://i.imgur.com/ALViJeg.png">
+</a>
+
+# accountability++: exploring EU tenders
 
 
 
