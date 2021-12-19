@@ -1,11 +1,11 @@
 
 
 
-################### scraper function
+################### extractor function
 
-# This function scrapes information of interest from XML files and stores them in a CSV file.
+# This function extracts information of interest from XML files and stores them in a CSV file.
 # The function is based on the lxml library combines with absolute xpath expression. 
-# Relative paths are requiring more code compared to relative expression.
+# Absolute paths are requiring more code compared to relative path expression.
 # However, an absolute path is faster in identifying elements than a relative path
 # Considering that the function has to scrape a few 1000 XML files, the performance gain is significant.
 
