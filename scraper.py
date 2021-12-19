@@ -3,6 +3,8 @@ def scraper(file_names,destination):
 
     from lxml import etree
     
+    no_header = True
+
     for xml in file_names:
 
         root = etree.parse(xml).getroot()
@@ -34,7 +36,13 @@ def scraper(file_names,destination):
 
                     try:
                         with open(destination, 'a') as file:
+                            
+                            while no_header:
+                                file.write(f'{"ID"},{"Contractee"},{"Contractor"},{"CPV"},{"Type"},{"Country"},{"Nuts"},{"Value"},{"Currency"}\n')
+                                no_header = False
+                            
                             file.write(f'{id},{contractee.replace(",", "")},{contractor.replace(",", "")},{cpv},{type},{country},{nuts},{float(value)},{currency}\n') # store everything in a CSV File
+
                     except:
                         pass
 
