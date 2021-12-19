@@ -3,7 +3,7 @@
 <img  src="https://i.imgur.com/ALViJeg.png">
 </a>
 
-# accountability++: exploring EU tenders
+# Exploring EU tenders with Python
 
 
 
