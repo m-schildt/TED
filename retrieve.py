@@ -56,8 +56,10 @@ def retrieve(date):
             # Alert user of successful download
             print("File was downloaded successfully.")
             
+            
             # Close connection
             ftp.quit()
+            return file_name
          
          else:
             print("No file exists for the requested date.")
@@ -67,19 +69,22 @@ def retrieve(date):
       except:
          print("Something went wrong with the file transfer.")
       
+#retrieve("20211215")
+
 # Some dates to try
 # 1: should be out of range
-retrieve(1)
-retrieve("A")
+#retrieve(1)
+#retrieve("A")
 # 20000101: should be able to manage either srings or numbers
-retrieve(20000101)
+#retrieve(20000101)
 # "20000101": should be out of range
-retrieve("20000101")
+#retrieve("20000101")
 # "20170101": should not exist
-retrieve("20170101")
+#retrieve("20170101")
 # "20170102": Should not exist
-retrieve("20170102")
+#retrieve("20170102")
 # "20170103": should be downloaded
-retrieve("20211207")
+#retrieve("20211207")
+
 
 
