@@ -1,4 +1,3 @@
-
 # This function extracts information of interest from XML files and stores them in a CSV file.
 # The function is based on the lxml library combines with absolute xpath expression. 
 # Absolute paths are requiring more code compared to relative path expression.
@@ -6,12 +5,9 @@
 # Considering that the function has to scrape a few 1000 XML files, the performance gain is significant.
 # The extractor function ist test for XML file back to 06.07.2018 (20180705)
 
-
-
-
 # The function needs a variable that contains the directory path to XML files.
 # Second, a file path for the output file is required.
-def extractor(file_names,destination):
+def extract(file_names,destination):
 
     from lxml import etree
     
