@@ -1,6 +1,6 @@
 from retriever import retrieve
 from decompressor import decompress
-from extractor import extractor
+from extractor import extract
 
 # Date to retrieve:
 date = "20210705"
