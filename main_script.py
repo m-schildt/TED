@@ -1,7 +1,5 @@
-from retrieve import retrieve
-
+from retriever import retrieve
 from decompressor import decompress
-
 from extractor import extractor
 
 # Date to retrieve:
