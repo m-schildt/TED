@@ -14,7 +14,7 @@ def convert(df):
     url = 'https://api.exchangerate-api.com/v4/latest/EUR'
     
     # The data variable contains 160 exchange rates for Euro (in a dictionary format)
-    data= requests.get(url).json()
+    data = requests.get(url).json()
 
     # A new column ['Value in EUR'] is created
                         # The local currency value ['Value'] is devided by the exchange rate
