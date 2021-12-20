@@ -9,7 +9,7 @@ This repository contains the work we developed as a final project for our Data S
 
 # Components
 
-The repo includes a [`scripts`](/scripts) folder, which contains all the scripts we created for the project. The root directory contains [a Python notebook](https://github.com/m-schildt/TED/blob/main/TED.ipynb) which may be accesed directly within Google's Colaboratory by clicking on the <img src="https://i.imgur.com/BeunuU9.png" height=15> icon. In it you will find a walk-through of the functionality achieved by our code and an exploratory analysis of the kind of insights that are possible with it.
+The repo includes a [`scripts`](/scripts) folder, which contains all the scripts we created for the project. The root directory contains [a Python notebook](https://github.com/m-schildt/TED/blob/main/TED.ipynb) which may be accesed directly within Google's Colaboratory by clicking on the <a href="#"><img src="https://i.imgur.com/BeunuU9.png" height=15></a> icon. In it you will find a walk-through of the functionality achieved by our code and an exploratory analysis of the kind of insights that are possible with it.
 
 ### License
 The material in this repository is work in progress and is hence private and not licensed.
