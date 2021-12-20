@@ -1,8 +1,4 @@
 
-
-
-################### extractor function
-
 # This function extracts information of interest from XML files and stores them in a CSV file.
 # The function is based on the lxml library combines with absolute xpath expression. 
 # Absolute paths are requiring more code compared to relative path expression.
@@ -13,7 +9,7 @@
 
 
 
-# The function needs an variable that contains the directory path to XML files.
+# The function needs a variable that contains the directory path to XML files.
 # Second, a file path for the output file is required.
 def extractor(file_names,destination):
 
