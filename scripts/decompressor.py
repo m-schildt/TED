@@ -1,6 +1,4 @@
-
-
-# The decompress function uses tarfile library is used to decompress the retrieved XML files
+# The decompressor function uses tarfile library is used to decompress the retrieved XML files
 # The function retruns a variable that contains the directory path to all the retrieved XML files
 def decompress(fname):
 
