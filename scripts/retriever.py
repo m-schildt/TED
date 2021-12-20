@@ -1,11 +1,5 @@
 ## Retrieve XML for given date
 
-## In the next versions
-# Allow retrieval of multiple dates at once
-# Give the user some feedback on downloads: while and when done
-# Allow user to specify directory, with current cworking directory as default
-
-
 def retrieve(date):
 
    # Cast date to string
@@ -69,22 +63,3 @@ def retrieve(date):
       except:
          print("Something went wrong with the file transfer.")
       
-#retrieve("20211218")
-
-# Some dates to try
-# 1: should be out of range
-#retrieve(1)
-#retrieve("A")
-# 20000101: should be able to manage either srings or numbers
-#retrieve(20000101)
-# "20000101": should be out of range
-#retrieve("20000101")
-# "20170101": should not exist
-#retrieve("20170101")
-# "20170102": Should not exist
-#retrieve("20170102")
-# "20170103": should be downloaded
-#retrieve("20211207")
-
-
-
