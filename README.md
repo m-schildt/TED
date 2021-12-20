@@ -1,6 +1,6 @@
 <center>
 <a href="https://github.com/m-schildt/TED-Tenders-Electronic-Daily">
-<img  src="https://i.imgur.com/ALViJeg.png">
+<img  src="https://i.imgur.com/L1zqyDB.png">
 </a>
 
 # Exploring EU tenders with Python
@@ -26,3 +26,4 @@ This is a work in progress, refer to [`proposal`](proposal.md) and [`components`
 
 ## About documentation
 
+We decided to go with conventional 'readme' .  `pydoc` or `sphinx`
