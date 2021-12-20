@@ -5,7 +5,7 @@
 # and a "Currency" column that contains a ISO 4217 Three Letter Currency Code.
 # The function will return the inserted data frame with an extra column that contains only Euro Values
 
-def euro_converter(df):
+def convert(df):
     import requests
     import pandas as pd
 
