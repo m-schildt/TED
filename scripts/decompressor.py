@@ -15,7 +15,7 @@ def decompress(fname):
             file_names = tar.getnames()[1:]
             tar.extractall('./') 
             tar.close()
-            print("File was decompressed successfully")
+            print("File was decompressed successfully.")
             
             # return of variable 'file_names'
             return file_names
